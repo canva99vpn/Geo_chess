@@ -1,0 +1,15 @@
+:root {
+    --tile-size : 110px;
+    --light-tile : #6a7283;
+    --dark-tile : #2e313f;
+    --bg-color : #202020;
+    --highlight : rgba(0,0,0,.1);
+    --check : #FEEC48;
+    --list-text : #ffffff;
+}
+
+@media all and (max-width: 450px) {
+    :root {
+        --tile-size : 50px;
+    }
+}
